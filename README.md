@@ -210,4 +210,4 @@ If this is useful, please cite the repository. Method description forthcoming.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+see [LICENSE](LICENSE).
