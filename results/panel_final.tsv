@@ -1,0 +1,8 @@
+Guide	Locus	Protospacer	PAM_context	GC_pct	Mean_sites_per_genome	Notes
+gRNA_23S_01	23S rRNA	GTCTGGTGGGTAGTTTGACT	NGG	50.0	7.29	full coverage across all gut-scope genera
+gRNA_23S_02	23S rRNA	AGTTCGGTCCCTATCTGCCG	NGG	60.0	7.27	full coverage across all gut-scope genera
+gRNA_23S_03	23S rRNA	GTTCTCCCCGAAAGCTATTT	NGG	45.0	7.24	full coverage across all gut-scope genera
+gRNA_23S_04	23S rRNA	GGTGCCGTAACTTCGGGAGA	NGG	60.0	7.28	full coverage across all gut-scope genera
+gRNA_secY_01	secY	TGCTCTCCCGGACGAATTCC	NGG	60.0	0.90	single copy; strongest secY guide by GC
+gRNA_secY_02	secY	GCACTTTGAAAATCTAATCC	NGG	35.0	0.86	single copy; AT-rich, weaker binding expected
+gRNA_secY_03	secY	GCATAGAGTAACACATAAAG	NGG	35.0	0.79	single copy; AT-rich, weaker binding expected

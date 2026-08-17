@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------
+# Data directories: track the structure and the per-folder READMEs,
+# ignore everything else inside them.
+# ---------------------------------------------------------------
+01_metadata/*
+02_genomes_raw/*
+03_genomes_filtered/*
+04_qc/*
+05_dereplication/*
+06_annotation/*
+09_background/*
+10_rrna/*
+10_core_genes/*
+11_guides/*
+logs/*
+
+!01_metadata/README.md
+!02_genomes_raw/README.md
+!03_genomes_filtered/README.md
+!04_qc/README.md
+!05_dereplication/README.md
+!06_annotation/README.md
+!09_background/README.md
+!10_rrna/README.md
+!10_core_genes/README.md
+!11_guides/README.md
+!logs/README.md
+!**/.gitkeep
+
+# ---------------------------------------------------------------
+# Sequence and archive formats, wherever they appear
+# ---------------------------------------------------------------
+*.fna
+*.fa
+*.fasta
+*.gbff
+*.gff3
+*.ffn
+*.faa
+*.zip
+*.gz
+*.tar
+*.tar.gz
+
+# Curated results are the exception
+!results/*.tsv
+!results/*.fasta
+
+# ---------------------------------------------------------------
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

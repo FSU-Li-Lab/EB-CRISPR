@@ -1,0 +1,21 @@
+name: grna-design
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - barrnap
+  - seqkit
+  - mafft
+  - parallel
+  - ncbi-datasets-cli
+  - drep
+  - checkm2
+  - quast
+  - bakta
+# cas-offinder is installed in a separate environment:
+#   conda create -n casoff -c conda-forge -c bioconda cas-offinder
+# Its OpenCL dependencies conflict with the packages above.
