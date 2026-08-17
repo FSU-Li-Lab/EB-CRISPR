@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "EB-CRISPR: guide RNA design for order-level bacterial enrichment"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Xiaolong"
+    affiliation: "Florida State University"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/FSU-Li-Lab/EB-CRISPR"
+url: "https://github.com/FSU-Li-Lab/EB-CRISPR"
+abstract: >-
+  A reproducible pipeline for designing dCas9 guide RNA panels that label an
+  entire bacterial order, for cell-sorting-based enrichment from complex
+  microbial communities. Handles the constraints specific to occupancy-based
+  labelling assays: binding sites per genome rather than presence/absence,
+  abundance-weighted off-target screening against a tiered negative set, and
+  steric independence between guides. Applied to Enterobacterales, it produced
+  a seven-guide panel giving a median of 31 binding sites per target genome
+  with no off-targets across 32,536 background genomes.
+keywords:
+  - CRISPR
+  - dCas9
+  - guide RNA design
+  - microbiome
+  - Enterobacterales
+  - cell sorting
+  - comparative genomics
+license: MIT
+version: 1.0.0
+date-released: "2026-08-17"
